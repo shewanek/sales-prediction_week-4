@@ -1,0 +1,9 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+week_4/
+data/
