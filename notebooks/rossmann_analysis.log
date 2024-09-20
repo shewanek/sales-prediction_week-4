@@ -122,3 +122,24 @@
 2024-09-20 21:50:19,179 - INFO - Analyzing the effect of competitor store openings on sales...
 2024-09-20 21:50:20,511 - INFO - EDA complete.
 2024-09-20 21:50:20,511 - INFO - EDA complete.
+2024-09-20 22:17:46,193 - INFO - Loading data...
+2024-09-20 22:17:46,664 - INFO - Data loaded successfully.
+2024-09-20 22:17:48,168 - INFO - Cleaning data...
+2024-09-20 22:17:48,169 - INFO - Merging store data with train and test datasets.
+2024-09-20 22:17:48,169 - INFO - Merging store data with train and test datasets.
+2024-09-20 22:17:48,279 - INFO - Filling missing values in CompetitionDistance.
+2024-09-20 22:17:48,279 - INFO - Filling missing values in CompetitionDistance.
+2024-09-20 22:17:48,298 - INFO - Filling missing values in CompetitionOpenSinceMonth.
+2024-09-20 22:17:48,298 - INFO - Filling missing values in CompetitionOpenSinceMonth.
+2024-09-20 22:17:48,308 - INFO - Filling missing values in CompetitionOpenSinceYear.
+2024-09-20 22:17:48,308 - INFO - Filling missing values in CompetitionOpenSinceYear.
+2024-09-20 22:17:48,308 - INFO - Filling missing values in Promo2SinceWeek.
+2024-09-20 22:17:48,308 - INFO - Filling missing values in Promo2SinceWeek.
+2024-09-20 22:17:48,324 - INFO - Filling missing values in Promo2SinceYear.
+2024-09-20 22:17:48,324 - INFO - Filling missing values in Promo2SinceYear.
+2024-09-20 22:17:48,324 - INFO - Filling missing values in PromoInterval.
+2024-09-20 22:17:48,324 - INFO - Filling missing values in PromoInterval.
+2024-09-20 22:17:48,379 - INFO - Data cleaning complete.
+2024-09-20 22:17:48,379 - INFO - Data cleaning complete.
+2024-09-20 22:17:48,386 - INFO - Data cleaning complete.
+2024-09-20 22:17:48,386 - INFO - Data cleaning complete.

@@ -95,3 +95,37 @@ class EDA:
         plt.title('Effect of Competitor Store Openings on Sales')
         plt.show()
         self.logger.info("competitor opening effect plotted successfully")
+
+    def plot_weekend_sales_comparison(self, train_data):
+        self.logger.info("Plotting weekend_sales_comparison")
+        # Create a flag for weekdays (1 = Monday to 5 = Friday)
+        weekdays = [1, 2, 3, 4, 5]
+        weekends = [6, 7]  # Saturday = 6, Sunday = 7
+
+        # Find stores that are open all weekdays
+        open_all_weekdays = train_data[train_data['DayOfWeek'].isin(weekdays)]
+        open_all_weekdays = open_all_weekdays.groupby('Store')['Open'].sum() == 5
+
+        # Separate stores into open on all weekdays vs closed on some weekdays
+        train_data['OpenAllWeekdays'] = train_data['Store'].map(open_all_weekdays)
+        
+        # Filter weekend sales
+        weekend_sales = train_data[train_data['DayOfWeek'].isin(weekends)]
+
+        # Group by 'OpenAllWeekdays' and calculate average sales for weekend
+        avg_weekend_sales = weekend_sales.groupby('OpenAllWeekdays')['Sales'].mean().reset_index()
+
+        # Plot the comparison
+        plt.figure(figsize=(8, 6))
+        sns.barplot(x='OpenAllWeekdays', y='Sales', data=avg_weekend_sales, palette="coolwarm")
+        
+        # Set plot labels and title
+        plt.xlabel('Store Open All Weekdays')
+        plt.ylabel('Average Weekend Sales')
+        plt.title('Comparison of Average Weekend Sales for Stores Open on Weekdays vs. Closed')
+        plt.xticks([0, 1], ['Closed on Some Weekdays', 'Open All Weekdays'])
+        
+        plt.show()
+        self.logger.info("weekend_sales_comparison plotted successfully")
+
+
