@@ -26,3 +26,24 @@
 2024-09-20 18:36:01,287 - INFO - Calculate unique values for object type columns in train data
 2024-09-20 18:36:08,313 - INFO - Calculate unique values for object type columns in test data
 2024-09-20 18:39:08,142 - INFO - Calculate unique values for object type columns in train data
+2024-09-20 19:56:52,573 - INFO - Loading data...
+2024-09-20 19:56:53,126 - INFO - Data loaded successfully.
+2024-09-20 20:00:27,652 - INFO - Cleaning data...
+2024-09-20 20:00:27,653 - INFO - Merging store data with train and test datasets.
+2024-09-20 20:00:27,653 - INFO - Merging store data with train and test datasets.
+2024-09-20 20:00:27,779 - INFO - Filling missing values in CompetitionDistance.
+2024-09-20 20:00:27,779 - INFO - Filling missing values in CompetitionDistance.
+2024-09-20 20:00:27,805 - INFO - Filling missing values in CompetitionOpenSinceMonth.
+2024-09-20 20:00:27,805 - INFO - Filling missing values in CompetitionOpenSinceMonth.
+2024-09-20 20:00:27,814 - INFO - Filling missing values in CompetitionOpenSinceYear.
+2024-09-20 20:00:27,814 - INFO - Filling missing values in CompetitionOpenSinceYear.
+2024-09-20 20:00:27,823 - INFO - Filling missing values in Promo2SinceWeek.
+2024-09-20 20:00:27,823 - INFO - Filling missing values in Promo2SinceWeek.
+2024-09-20 20:00:27,832 - INFO - Filling missing values in Promo2SinceYear.
+2024-09-20 20:00:27,832 - INFO - Filling missing values in Promo2SinceYear.
+2024-09-20 20:00:27,843 - INFO - Filling missing values in PromoInterval.
+2024-09-20 20:00:27,843 - INFO - Filling missing values in PromoInterval.
+2024-09-20 20:00:27,880 - INFO - Data cleaning complete.
+2024-09-20 20:00:27,880 - INFO - Data cleaning complete.
+2024-09-20 20:00:27,891 - INFO - Data cleaning complete.
+2024-09-20 20:00:27,891 - INFO - Data cleaning complete.
