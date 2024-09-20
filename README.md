@@ -1,4 +1,3 @@
-```markdown
 # Rossmann Pharmaceuticals Sales Forecasting
 
 ## Overview
