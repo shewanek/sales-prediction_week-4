@@ -1,0 +1,10 @@
+2024-09-20 16:40:21,010 - INFO - Loading data...
+2024-09-20 16:41:18,899 - INFO - Loading data...
+2024-09-20 16:41:19,426 - INFO - Data loaded successfully.
+2024-09-20 16:48:01,476 - INFO - First 5 rows of the training data (train_data)
+2024-09-20 16:49:03,138 - INFO - First 5 rows of the testing data (test_data)
+2024-09-20 16:49:35,534 - INFO - First 5 rows of the store data (store_data)
+2024-09-20 17:02:31,570 - INFO - train_data.info()
+2024-09-20 17:03:46,851 - INFO - test_data.info()
+2024-09-20 17:03:53,839 - INFO - store_data.info()
+2024-09-20 17:13:40,267 - INFO - Shape of data
