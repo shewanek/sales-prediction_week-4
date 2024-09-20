@@ -8,3 +8,16 @@
 2024-09-20 17:03:46,851 - INFO - test_data.info()
 2024-09-20 17:03:53,839 - INFO - store_data.info()
 2024-09-20 17:13:40,267 - INFO - Shape of data
+2024-09-20 17:48:41,010 - INFO - Merge train data with store data
+2024-09-20 17:51:06,483 - INFO - First 5 rows of the merged train data (train_df)
+2024-09-20 17:52:42,660 - INFO - Merge train and test data with store data
+2024-09-20 17:53:51,827 - INFO - First 5 rows of the merged test data (test_df)
+2024-09-20 17:56:27,771 - INFO - train_df.info()
+2024-09-20 17:56:58,777 - INFO - test_df.info()
+2024-09-20 17:59:17,433 - INFO - Shape of merged data
+2024-09-20 18:08:07,000 - INFO - summary of statistical metrics for numerical columns of merged train data
+2024-09-20 18:08:47,512 - INFO - summary of statistical metrics for numerical columns of merged test data
+2024-09-20 18:13:32,103 - INFO - Total Null values for merged test data
+2024-09-20 18:14:35,019 - INFO - Total Null values for merged train data
+2024-09-20 18:15:01,573 - INFO - Total Null values for merged test data
+2024-09-20 18:17:01,494 - INFO - Calculate the percentage of missing values in each column merged train data
