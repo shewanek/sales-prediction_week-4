@@ -21,3 +21,8 @@
 2024-09-20 18:14:35,019 - INFO - Total Null values for merged train data
 2024-09-20 18:15:01,573 - INFO - Total Null values for merged test data
 2024-09-20 18:17:01,494 - INFO - Calculate the percentage of missing values in each column merged train data
+2024-09-20 18:17:43,708 - INFO - Calculate the percentage of missing values in each column merged test data
+2024-09-20 18:21:00,816 - INFO - Checking for Duplicated Rows
+2024-09-20 18:36:01,287 - INFO - Calculate unique values for object type columns in train data
+2024-09-20 18:36:08,313 - INFO - Calculate unique values for object type columns in test data
+2024-09-20 18:39:08,142 - INFO - Calculate unique values for object type columns in train data
