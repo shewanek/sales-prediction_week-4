@@ -1,7 +1,7 @@
 from scripts.logger import Logger
 
 class DataCleaner:
-    def __init__(self, logger='rossmann_analysis.log'):
+    def __init__(self, logger=None):
         # Initialize logger if passed, otherwise create a new one
         self.logger = logger if logger else Logger('rossmann_analysis.log')
 
