@@ -164,3 +164,31 @@
 2024-09-20 22:19:42,572 - INFO - Data cleaning complete.
 2024-09-20 22:19:42,576 - INFO - Data cleaning complete.
 2024-09-20 22:19:42,576 - INFO - Data cleaning complete.
+2024-09-24 17:09:59,053 - INFO - Loading data...
+2024-09-24 17:09:59,644 - INFO - Data loaded successfully.
+2024-09-24 17:10:19,731 - INFO - Merging store data with train and test datasets.
+2024-09-24 17:10:19,866 - INFO - Filling missing values in CompetitionDistance.
+2024-09-24 17:10:19,892 - INFO - Filling missing values in CompetitionOpenSinceMonth.
+2024-09-24 17:10:19,900 - INFO - Filling missing values in CompetitionOpenSinceYear.
+2024-09-24 17:10:19,909 - INFO - Filling missing values in Promo2SinceWeek.
+2024-09-24 17:10:19,912 - INFO - Filling missing values in Promo2SinceYear.
+2024-09-24 17:10:19,928 - INFO - Filling missing values in PromoInterval.
+2024-09-24 17:10:19,961 - INFO - Data cleaning complete.
+2024-09-24 17:13:35,029 - INFO - Loading data...
+2024-09-24 17:56:58,599 - INFO - Loading data...
+2024-09-24 17:56:59,093 - INFO - Data loaded successfully.
+2024-09-24 17:56:59,110 - INFO - Merging store data with train and test datasets.
+2024-09-24 17:56:59,226 - INFO - Filling missing values in CompetitionDistance.
+2024-09-24 17:56:59,243 - INFO - Filling missing values in CompetitionOpenSinceMonth.
+2024-09-24 17:56:59,243 - INFO - Filling missing values in CompetitionOpenSinceYear.
+2024-09-24 17:56:59,259 - INFO - Filling missing values in Promo2SinceWeek.
+2024-09-24 17:56:59,259 - INFO - Filling missing values in Promo2SinceYear.
+2024-09-24 17:56:59,277 - INFO - Filling missing values in PromoInterval.
+2024-09-24 17:56:59,310 - INFO - Data cleaning complete.
+2024-09-24 17:56:59,350 - INFO - Starting feature engineering for training data.
+2024-09-24 18:00:11,401 - INFO - Encoding StoreType.
+2024-09-24 18:00:11,521 - INFO - Encoding Assortment.
+2024-09-24 18:00:11,637 - INFO - Encoding StateHoliday.
+2024-09-24 18:00:11,739 - INFO - Encoding PromoInterval.
+2024-09-24 18:00:11,855 - INFO - Encoding complete.
+2024-09-24 18:00:12,095 - INFO - Scaling the numerical features.
