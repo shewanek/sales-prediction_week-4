@@ -163,32 +163,49 @@
 2024-09-20 22:19:42,572 - INFO - Data cleaning complete.
 2024-09-20 22:19:42,572 - INFO - Data cleaning complete.
 2024-09-20 22:19:42,576 - INFO - Data cleaning complete.
-2024-09-20 22:19:42,576 - INFO - Data cleaning complete.
-2024-09-24 17:09:59,053 - INFO - Loading data...
-2024-09-24 17:09:59,644 - INFO - Data loaded successfully.
-2024-09-24 17:10:19,731 - INFO - Merging store data with train and test datasets.
-2024-09-24 17:10:19,866 - INFO - Filling missing values in CompetitionDistance.
-2024-09-24 17:10:19,892 - INFO - Filling missing values in CompetitionOpenSinceMonth.
-2024-09-24 17:10:19,900 - INFO - Filling missing values in CompetitionOpenSinceYear.
-2024-09-24 17:10:19,909 - INFO - Filling missing values in Promo2SinceWeek.
-2024-09-24 17:10:19,912 - INFO - Filling missing values in Promo2SinceYear.
-2024-09-24 17:10:19,928 - INFO - Filling missing values in PromoInterval.
-2024-09-24 17:10:19,961 - INFO - Data cleaning complete.
-2024-09-24 17:13:35,029 - INFO - Loading data...
-2024-09-24 17:56:58,599 - INFO - Loading data...
-2024-09-24 17:56:59,093 - INFO - Data loaded successfully.
-2024-09-24 17:56:59,110 - INFO - Merging store data with train and test datasets.
-2024-09-24 17:56:59,226 - INFO - Filling missing values in CompetitionDistance.
-2024-09-24 17:56:59,243 - INFO - Filling missing values in CompetitionOpenSinceMonth.
-2024-09-24 17:56:59,243 - INFO - Filling missing values in CompetitionOpenSinceYear.
-2024-09-24 17:56:59,259 - INFO - Filling missing values in Promo2SinceWeek.
-2024-09-24 17:56:59,259 - INFO - Filling missing values in Promo2SinceYear.
-2024-09-24 17:56:59,277 - INFO - Filling missing values in PromoInterval.
-2024-09-24 17:56:59,310 - INFO - Data cleaning complete.
-2024-09-24 17:56:59,350 - INFO - Starting feature engineering for training data.
-2024-09-24 18:00:11,401 - INFO - Encoding StoreType.
-2024-09-24 18:00:11,521 - INFO - Encoding Assortment.
-2024-09-24 18:00:11,637 - INFO - Encoding StateHoliday.
-2024-09-24 18:00:11,739 - INFO - Encoding PromoInterval.
-2024-09-24 18:00:11,855 - INFO - Encoding complete.
-2024-09-24 18:00:12,095 - INFO - Scaling the numerical features.
+2024-09-20 22:19:42,576 - INFO - Data cleaning complete.2024-09-24 18:46:41,485 - INFO - Loading data...
+2024-09-24 18:46:41,963 - INFO - Data loaded successfully.
+2024-09-24 18:46:41,979 - INFO - Merging store data with train and test datasets.
+2024-09-24 18:46:42,112 - INFO - Filling missing values in CompetitionDistance.
+2024-09-24 18:46:42,129 - INFO - Filling missing values in CompetitionOpenSinceMonth.
+2024-09-24 18:46:42,144 - INFO - Filling missing values in CompetitionOpenSinceYear.
+2024-09-24 18:46:42,146 - INFO - Filling missing values in Promo2SinceWeek.
+2024-09-24 18:46:42,146 - INFO - Filling missing values in Promo2SinceYear.
+2024-09-24 18:46:42,162 - INFO - Filling missing values in PromoInterval.
+2024-09-24 18:46:42,198 - INFO - Data cleaning complete.
+2024-09-24 18:46:42,246 - INFO - Starting feature engineering for training data.
+2024-09-24 18:49:51,002 - INFO - Encoding StoreType.
+2024-09-24 18:49:51,117 - INFO - Encoding Assortment.
+2024-09-24 18:49:51,232 - INFO - Encoding StateHoliday.
+2024-09-24 18:49:51,352 - INFO - Encoding PromoInterval.
+2024-09-24 18:49:51,468 - INFO - Encoding complete.
+2024-09-24 18:49:51,652 - INFO - Scaling the numerical features.
+2024-09-24 18:51:55,382 - INFO - Loading data...
+2024-09-24 18:51:55,881 - INFO - Data loaded successfully.
+2024-09-24 18:51:55,890 - INFO - Merging store data with train and test datasets.
+2024-09-24 18:51:56,008 - INFO - Filling missing values in CompetitionDistance.
+2024-09-24 18:51:56,033 - INFO - Filling missing values in CompetitionOpenSinceMonth.
+2024-09-24 18:51:56,041 - INFO - Filling missing values in CompetitionOpenSinceYear.
+2024-09-24 18:51:56,049 - INFO - Filling missing values in Promo2SinceWeek.
+2024-09-24 18:51:56,057 - INFO - Filling missing values in Promo2SinceYear.
+2024-09-24 18:51:56,065 - INFO - Filling missing values in PromoInterval.
+2024-09-24 18:51:56,101 - INFO - Data cleaning complete.
+2024-09-24 18:51:56,148 - INFO - Starting feature engineering for training data.
+2024-09-24 18:55:05,286 - INFO - Encoding StoreType.
+2024-09-24 18:55:05,402 - INFO - Encoding Assortment.
+2024-09-24 18:55:05,517 - INFO - Encoding StateHoliday.
+2024-09-24 18:55:05,632 - INFO - Encoding PromoInterval.
+2024-09-24 18:55:05,750 - INFO - Encoding complete.
+2024-09-24 18:55:05,919 - INFO - Scaling the numerical features.
+2024-09-24 18:55:06,353 - INFO - Training the Random Forest model.
+2024-09-24 18:59:44,843 - INFO - Model training complete.
+2024-09-24 18:59:45,017 - INFO - Making predictions.
+2024-09-24 19:00:16,739 - INFO - Mean Squared Error (MSE): 930022.3322820455
+2024-09-24 19:00:16,754 - INFO - Mean Absolute Error (MAE): 587.973852491915
+2024-09-24 19:00:16,754 - INFO - Root Mean Squared Error (RMSE): 964.3766547786428
+2024-09-24 19:00:16,754 - INFO - R-squared (R2): 0.9371130468314715
+2024-09-24 19:00:16,754 - INFO - Mean Squared Logarithmic Error (MSLE): 0.022263582949272998
+2024-09-24 19:02:29,477 - INFO - Saving the model to models/random_forest_model.pkl
+2024-09-24 19:04:10,710 - INFO - Saving the model to models/random_forest_model.pkl
+2024-09-24 19:04:25,273 - INFO - Saving the model to ../models/random_forest_model.pkl
+2024-09-24 19:05:03,294 - INFO - Model saved successfully.
